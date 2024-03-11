@@ -1,0 +1,77 @@
+*{               
+    padding: 0px;
+    margin: 0px;
+   }
+   body{
+       display:flex;
+       justify-content:center;
+       background-color:brown;
+       background-size: cover;
+      }
+
+   .home{
+      justify-content:;
+      height: 30px;
+      width: 300px;
+      padding: 20px 3px;
+      text-transform: none;
+      }
+      
+   .home a img{
+      margin: 5px 35px;
+      padding: 0px 0px;
+      height:70px;
+      width:70px;
+      background-color: white;
+      color: blue;
+      border-radius: 50%;
+      text-transform: none;
+      }
+      
+   .home a img:hover{
+      transform:scale(1.08);
+      }
+
+   div h2{
+      font-size: 60px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-decoration: double;
+      text-shadow: 2px 2px 2px rgb(9, 9, 9);
+      color: rgba(249, 246, 246, 0.961);
+   }
+   .container{
+       position: relative;
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       flex-wrap:wrap;
+       padding:30px;
+   }
+.container .cards{
+   position:relative;
+   margin: 30px 10px;
+   padding:10px 6px 16px 6px;
+   display:flex;
+   box-shadow:2px 2.5px 2px 2.5px black;
+   transition: 0.3s ease-in-out;
+   border-radius: 10px;
+   border-color: black;
+   color: black;
+   font-size: 18px;
+   text-align: center;
+   background-color: whitesmoke;
+   text-shadow: 0.5px 1.2px gray;
+   }
+
+.container .cards .book img{
+   radius:10px;
+   width:270px;
+   height:400px;
+   border-radius: 10px;
+   box-shadow:1px 1.5px 1px 1.5px black;
+}
+
+.book img:hover{
+   transform:scale(1.05);
+}
+
